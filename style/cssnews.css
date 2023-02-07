@@ -126,6 +126,11 @@ article h3{
 article{
 	
 	margin: 10px;
+
+	
+}
+
+div{
 	
 }
 
@@ -173,6 +178,20 @@ footer address div{
 	height: 50px;
 	align-content: center;
 	vertical-align:middle;
+}
+
+.game1{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 500px;
+	height: auto;
+	text-align: justify;
+}
+
+iframe{
+	width: 500px;
+	height: 300px;
 }
 /*
 &.fa-facebook {
