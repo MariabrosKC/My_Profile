@@ -13,14 +13,21 @@ img{
   }
 
 body{
-	background-image: linear-gradient(to right, antiquewhite, white);
+	background-image: url('../images/cryingsmile.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
 	width: 80rem;
 	margin-left: auto;
 	margin-right: auto;
 	height:100rem;
-	color: darkgray;	
+	color: white;	
+	font-weight: bold;
 }
-
+.bckimage{
+	
+}
 header{
 	background-image: linear-gradient(to right, teal, antiquewhite);
 	padding: 0px;
@@ -126,7 +133,7 @@ aside{
 	margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 2rem;
-	height: 350px;
+	height: 280px;
 	width: 300px;
 	/*display: inline;*/
 }
@@ -339,4 +346,7 @@ iframe{
 .email table, tr, td{
 	height: 2rem;
 	line-height: 2rem;
+	color: white;
+	font-weight: bold;
+	font-size: larger;
 }
