@@ -1,11 +1,6 @@
-/*
-@fa-facebook-official: @fa-facebook;
-@fa-facebook-square: @fa-facebook;
-@fa-facebook: #063970;
-@fa-youtube-play: @fa-youtube;
-@fa-youtube-square: @fa-youtube;
-@fa-youtube: red;
-*/
+*{
+	/*border: 3px solid black;*/
+}
 
 img{
 	box-shadow: 0 0 8px 8px white inset;
@@ -120,14 +115,29 @@ article h3{
 	font-style: bold;
 	
 }
-
-
 aside{
 	
 	width:  30%;
 	height: auto;
 	float: right;
 	 margin-top: 10px;
+}
+.favgames{
+	margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 2rem;
+	height: 350px;
+	width: 300px;
+	/*display: inline;*/
+}
+
+.favgames img{
+	width: 60px;
+	height: 60px;
+}
+
+.favgames table{
+	width: 300px;
 }
 
 main section article img{
@@ -206,6 +216,9 @@ iframe{
 	position: relative;
 	left: -120px;
 	top: -50px;
+	box-shadow: 0 0 8px 8px white inset;
+
+
   }
   .navbar .nav-links{
 	display: inline;
@@ -213,7 +226,7 @@ iframe{
 	font-size: 18px;
   }
    
-  .navbar .nav-links .loginBtn{
+  .navbar .nav-links {
 	display: inline-block;
 	padding: 5px 15px;
 	margin-left: 20px;
@@ -291,28 +304,39 @@ iframe{
 	  color: rgb(9, 14, 90);
 	}
 }
-/*
-&.fa-facebook {
-    color: @fa-facebook;
+
+.illgrmain{
+
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
 }
 
-&.fa-facebook-official {
-	color: @fa-facebook-official;
+.illgrmain div, table{
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 50rem;
 }
 
-&.fa-facebook-square {
-	color: @fa-facebook-square;
+.illgrmain img{
+	width: 200px;
+	height: 200px;
+   }
+
+.illgrmain iframe{
+	margin-left:8rem;
+	
 }
 
-&.fa-youtube {
-	color: 	@fa-youtube;
+.gameframe{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
 }
 
-&.fa-youtube-play {
-	color: @fa-youtube-play;
+.email table, tr, td{
+	height: 2rem;
+	line-height: 2rem;
 }
-&.fa-youtube-square {
-	color: @fa-youtube-square;
-}
-
-*/
